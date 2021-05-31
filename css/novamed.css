@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+.main__items__nova{
+    height: 1460px;
+}
+.first__column__nova{
+    max-width: 450px;
+    padding: 30px 15px;
+    transform: translate(0px, -412px);
+}
+.hero__box__novamed{
+    background-image: url(../img/novamed/novamed.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.nova__title{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 57px;
+}
+.nova__btn{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 900;
+    color:#000;
+    padding: 12px 60px;
+    border: 1px solid #000;
+    border-radius:40px;
+    margin-bottom: 56px;
+}
+.nova__btn:hover{
+    background-color:rgba(255, 255, 255, 0.3);
+}
+.nova__text{
+    font-size: 18px;
+    margin-top: 56px;
+    line-height: 25px;
+}
+.nova__text__minor{
+    line-height: 25px;
+    font-size: 14px;
+    width: 315px;
+    text-align: left;
+}
+.nova__text__minor ul{
+    padding-left: 0;
+}
+#med-list{
+    list-style-type: none;
+}
+.second__column__nova{
+    width: 450px;
+}
+#circle__nova{
+    transform: translate(222px, -195px);
+    z-index: 0;
+}
+.nova__img__box{
+    z-index: 10;
+    max-width: 450px;
+}
+.si{
+width: 428px;
+height: 209px;
+overflow: hidden;
+border: 10px solid #FFFFFF;
+filter: drop-shadow(0px 4px 50px rgba(170, 130, 87, 0.2));
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.si img{
+width: 408px;
+height: 209px;
+}
+#si1{
+    background-image: url(../img/novamed/1.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#si2{
+    background-image: url(../img/novamed/6.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.sib{
+width: 428px;
+display: flex;
+justify-content: space-between;
+}
+.sib img{
+    width: 210px;
+    height: 210px;
+}
+#sib1{  
+background-image: url(../img/novamed/2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+width: 210px;
+height: 210px;
+overflow: hidden;
+border: 10px solid #FFFFFF;
+filter: drop-shadow(0px 4px 50px rgba(170, 130, 87, 0.2));
+    
+}
+#sib2{  
+    background-image: url(../img/novamed/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 210px;
+    height: 210px;
+    overflow: hidden;
+    border: 10px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 50px rgba(170, 130, 87, 0.2));
+         }
+
+
+#sib3{  
+        background-image: url(../img/novamed/4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 210px;
+        height: 210px;
+        overflow: hidden;
+        border: 10px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 50px rgba(170, 130, 87, 0.2));
+            margin-top: 9px;
+        }    
+#sib4{  
+            background-image: url(../img/novamed/5.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            width: 210px;
+            height: 210px;
+            overflow: hidden;
+            border: 10px solid #FFFFFF;
+            filter: drop-shadow(0px 4px 50px rgba(170, 130, 87, 0.2));
+            margin-top: 9px;
+            }   
+#si5{  
+                background-image: url(../img/novamed/7.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                width: 210px;
+                height: 210px;
+                overflow: hidden;
+                border: 10px solid #FFFFFF;
+                filter: drop-shadow(0px 4px 50px rgba(170, 130, 87, 0.2));
+                margin-top: 9px;
+                }  
+#si6{  
+                    background-image: url(../img/novamed/8.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+                    width: 210px;
+                    height: 210px;
+                    overflow: hidden;
+                    border: 10px solid #FFFFFF;
+                    filter: drop-shadow(0px 4px 50px rgba(170, 130, 87, 0.2));
+                    margin-top: 9px;
+                    }     
+#si7{  
+                        background-image: url(../img/novamed/9.jpg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        width: 210px;
+                        height: 210px;
+                        overflow: hidden;
+                        border: 10px solid #FFFFFF;
+                        filter: drop-shadow(0px 4px 50px rgba(170, 130, 87, 0.2));
+                        margin-top: 9px;
+                    } 
+#si8{  
+                        background-image: url(../img/novamed/10.jpg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        width: 210px;
+                        height: 210px;
+                        overflow: hidden;
+                        border: 10px solid #FFFFFF;
+                        filter: drop-shadow(0px 4px 50px rgba(170, 130, 87, 0.2));
+                        margin-top: 9px;
+                        }                                                                                

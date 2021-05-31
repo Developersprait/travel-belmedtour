@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title></title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="topheader">
+            <div class="container">
+                <div class="top__wrapper">
+                    <div class="socials">
+                        <a class="facebook" href="https://www.facebook.com/Belmedtour-106209358232240/" target="_blanc">
+                            <img src="img/facebook.png" alt="facebook">
+                        </a>
+                        <a class="instagram" href="https://www.instagram.com/bel.med.tour/" target="_blanc">
+                            <img src="img/instagram.png" alt="instagram">
+                        </a>
+                        <a class="telegram" href="tg://resolve?domain=AliaksandrVitsiaz" target="_blanc">
+                            <img src="img/telegram.png" alt="telegram">
+                        </a>
+                    </div>
+                    <div class="top__bar__right">
+                        <div class="top_mobile">
+                            <img id="top__phone" src="img/mobile.png" alt="phone">
+                            <a href="tel:+48733189700" class="phone__number">+487 33 18 97 00</a>
+                        </div>
+                        <input data-fancybox data-src="#modal_question" href="javascript:;" id="question__button"
+                            type="submit" value="masz pytanie?">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo__bar">
+            <div class="container">
+                <div class="logo__wrapper" id="logo__wrapper">
+                    <div class="logo__items">
+                        <div class="logotype">
+                            <img class="logo" src="img/logo.png" alt="logo">
+                            <span class="logo__subtitle">BMT</span>
+                        </div>
+                    </div>
+                    <div class="logo__title">BelMedTour</div>
+                </div>
+            </div>
+        </div>
+        <nav id="menu" class="menu">
+            <div class="container">
+                <ul class="menu__list">
+                </ul>
+            </div>
+        </nav>
+        <div class="hero__box">
+            <div class="hero__inner__wrap">
+                <div class="hero__btns">
+                    <a href="#three" class="hero__btn" id="first__hero__btn">Tur 3 dni</a>
+                    <a href="#sec__col__title" class="hero__btn">Tur 5 dni</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__items">
+                    <div class="main__item first__column">
+                        <div class="column__title" id="three">Tur 3 dni</div>
+                        <div class="column__description">
+                            <b>Dzień 1</b> (piątek):
+                            <br>
+                            <br>
+                            <span style="font-size: 24px;">15.00</span> wyjazd z Polski;<br>
+                            <span style="font-size: 24px;">20.00</span> przyjazd do sanatorium <strong>"NADZEA"</strong>
+                            i zakwaterowanie;<br>
+                            Sanatorium znajduje się na terenie leśnym obwodu brzeskiego, w uroczysku "sosnowy Bor", 35
+                            kilometrów od Brześcia. W lesie sosnowym nad rzeką Muchawiec znajduje się wszystko, co jest
+                            potrzebne do pełnego wypoczynku i leczenia. Warunki klimatyczne terenu mają korzystny wpływ
+                            na organizm przez cały rok.<br>
+                            <a href="http://www.nadzeya.com">http://www.nadzeya.com</a><br>
+                            <span style="font-size: 24px;">20.30</span> kolacja;<br>
+                            <span style="font-size: 24px;">21.00</span> spotkanie organizacyjne;
+                            Zostanie przedstawiona informacja o metodach i możliwościach leczenia w centrum
+                            <strong>NOVAMED</strong>.
+                            Zapoznanie się z procedurami i ich zapisami do sanatorium <strong>NADZEA</strong>.
+                            <br>
+                            <br>
+                            <b>Dzień 2</b> (sobota):
+                            <br>
+                            <br>
+                            <span style="font-size: 24px;">07.00</span>śniadanie (dla tych, którzy nie muszą zdawać
+                            testów). Reszta dostanie śniadanie w
+                            pudełkach.<br>
+                            <span style="font-size: 24px;">07.30</span> przejazd do centrum <strong>NOVAMED</strong> w
+                            celu odbycia zajęć
+                            lekarskich;<br>
+                            <span style="font-size: 24px;">13.00</span> obiad;<br>
+                            <span style="font-size: 24px;">14.00</span> kontynuacja leczenia, wyjazd do sanatorium (dla
+                            tych, którzy ukończyli zajęcia
+                            lekarskie)<br>
+                            <span style="font-size: 24px;">17.00</span> przejazd do sanatorium;<br>
+                            <span style="font-size: 24px;">18.00</span> zwiedzanie Aquacentrum " Neon ";<br>
+                            To jest nowoczesny kompleks obejmujący basen z oświetleniem, wanną z hydromasażem i strefami
+                            dla dzieci, saunami, gabinetem masażu i barem.<br>
+                            <span style="font-size: 24px;">20.00</span>kolacja;
+                            <br>
+                            <br>
+                            <b>Dzień 3</b> (niedziela):
+                            <br>
+                            <br>
+                            <span style="font-size: 24px;">08.00</span> śniadanie;<br>
+                            <span style="font-size: 24px;">08.30</span> 1) wyjazd do <strong>NOVAMED</strong> (dla tych,
+                            którzy wymagają
+                            wizyty u lekarza lub leczenia);<br>
+                            2) wizyta w sanatorium lub czas wolny (dla turystów, którzy nie potrzebują leczenia);<br>
+                            <a
+                                href="http://www.nadzeya.com/dokumenty/ПРАЙС%20ПРОЦЕДУРЫ.pdf">www.nadzeya.com/dokumenty/ceny.pdf</a><br>
+                            <span style="font-size: 24px;">13.00</span> obiad;<br>
+                            <span style="font-size: 24px;">14.00</span> kontynuacja leczenia;<br>
+                            <span style="font-size: 24px;">15.30</span> wyjazd do sanatorium;<br>
+                            <span style="font-size: 24px;">16.00</span> przekąska;<br>
+                            <span style="font-size: 24px;">17.00</span> wyjazd do Polski;<br>
+                            <span style="font-size: 24px;">2.00</span> przyjazd do domu.<br>
+                        </div>
+                        <div class="img__box">
+                            <div class="rounds__box">
+                                <div class="round__image">
+                                    <div class="ri" id="round_2"></div>
+                                    <div id="v9"></div>
+                                    <div class="ri" id="round_1"></div>
+                                    <div id="v10"></div>
+                                </div>
+                                <div class="round__image">
+                                    <div class="ri" id="round_4"></div>
+                                    <div class="ri" id="round_3"></div>
+                                    <div id="v11"></div>
+                                </div>
+                            </div>
+                            <div class="square__box">
+                                <div class="square__img" id="sq1"></div>
+                            </div>
+                            <div class="rounds__box">
+                                <div class="round__image">
+                                    <div class="ri" id="round_5"></div>
+                                    <div class="ri" id="round_6"></div>
+                                    <div id="v12"></div>
+                                </div>
+                            </div>
+                            <div class="square__box">
+                                <div class="square__img" id="sq4"></div>
+                            </div>
+                            <div class="rounds__box">
+                                <div class="round__image">
+                                    <div class="ri" id="round_11"></div>
+                                    <div class="ri" id="round_12"></div>
+                                </div>
+                            </div>
+                            <div class="square__box">
+                                <div class="square__img" id="sq5"></div>
+                            </div>
+                            <div class="rounds__box">
+
+                                <div class="round__image">
+                                    <div class="ri" id="round_13"></div>
+                                    <div class="ri" id="round_14"></div>
+                                </div>
+                            </div>
+                            <div class="square__box">
+                                <div class="square__img" id="sq6"></div>
+                            </div>
+                            <div class="square__box">
+                                <div class="square__img" id="sq7"></div>
+                            </div>
+                            <div class="round__image">
+                                <div class="ri" id="round_15"></div>
+                                <div class="ri" id="round_16"></div>
+                            </div>
+                            <div class="square__box">
+                                <div class="square__img" id="sq8"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="main__item second__column">
+                        <div class="img__box__right">
+                            <div class="img__box">
+                                <div class="rounds__box">
+                                    <div class="round__image">
+                                        <div class="ri" id="round_7"></div>
+                                        <div id="v13"></div>
+                                        <div class="ri" id="round_8"></div>
+                                    </div>
+                                </div>
+                                <div class="square__box">
+                                    <div class="square__img" id="sq2"></div>
+                                </div>
+                                <div class="rounds__box">
+                                    <div class="round__image">
+                                        <div class="ri" id="round_9"></div>
+                                        <div class="ri" id="round_10"></div>
+                                    </div>
+                                </div>
+                                <div class="square__box">
+                                    <div class="square__img" id="sq3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column__inner">
+                            <div class="column__title" id="sec__col__title">Tur 5 dni</div>
+                            <div class="column__description">
+                                <b>Dzień 0</b>
+                                <br>
+                                <br>
+                                <span style="font-size: 24px;">15.00</span> wyjazd z Polski;<br>
+                                * do sanatorium <strong>"Nadzea"</strong> można dojechać własnym transportem. W
+                                razie
+                                potrzeby nasi
+                                przewodnicy spotkają się z Państwem na dworcu kolejowym lub autobusowym i
+                                zabiorą do miejsca
+                                zakwaterowania.<br>
+                                <span style="font-size: 24px;">20.00</span> przyjazd do sanatorium
+                                <strong>"NADZEA"</strong>
+                                i zakwaterowanie;<br>
+                                <span style="font-size: 24px;">21.00</span> spotkanie organizacyjne;<br>
+                                Zostanie przedstawiona informacja o metodach i możliwościach leczenia w centrum
+                                <strong>NOVAMED</strong>.<br>
+                                Zapoznanie się z procedurami i ich zapisami do sanatorium
+                                <strong>"NADZEA"</strong>.
+                                <br>
+                                <br>
+                                <b>Dzień 1</b>
+                                <br>
+                                <br>
+                                <span style="font-size: 24px;">07.00</span> śniadanie (dla tych, którzy nie
+                                muszą zdawać
+                                testów, dla innych śniadanie zostanie
+                                wydane ze sobą).<br>
+                                <span style="font-size: 24px;">07.30</span> przeprowadzka do centrum "NOVAMED" w
+                                celu
+                                poddania się pierwszemu badaniu i leczeniu;<br>
+                                <span style="font-size: 24px;">13.00</span> zwiedzanie Twierdzy Brzeskiej;<br>
+                                <span style="font-size: 24px;">14.00</span> obiad w kawiarni „Cytadela” na
+                                terenie
+                                Twierdzy;<br>
+                                <span style="font-size: 24px;">15.00</span> zwiedzanie Muzeum „Obrony Twierdzy
+                                Brzeskiej”;<br>
+                                <span style="font-size: 24px;">16.00</span> Wycieczka do Muzeum Archeologicznego
+                                „Biarescie”;<br>
+                                <span style="font-size: 24px;">16.30</span> powrót do sanatorium;<br>
+                                <span style="font-size: 24px;">17.30</span> wizyta w centrum wodnym "Neon" -
+                                nowoczesny
+                                kompleks, w tym basen z oświetleniem,
+                                jacuzzi i strefy dla dzieci, sauny, gabinet masażu i bar.<br>
+                                <span style="font-size: 24px;">19.30</span> kolacja<br>
+                                <br>
+                                <br>
+                                <b>Dzień 2</b>
+                                <br>
+                                <br>
+                                <span style="font-size: 24px;">08.00</span> Śniadanie;<br>
+                                <span style="font-size: 24px;">08.30</span> wyjazd do <strong>NOVAMED</strong> (dla tych
+                                turystów, którzy
+                                wymagają przyjęcia lub leczenia);<br>
+                                - wizyta w sanatorium <strong>„NADZEA”</strong>;<br>
+                                - czas wolny;<br>
+                                <span style="font-size: 24px;">12.00</span> Wyjazd z sanatorium;<br>
+                                <span style="font-size: 24px;">12.30</span> Wycieczka do dworu Niemcewiczów;<br>
+                                <span style="font-size: 24px;">13.30</span> Obiad w kawiarni "Szlachecka
+                                farcina" z
+                                degustacją lokalnych drinków;<br>
+                                <span style="font-size: 24px;">15.00</span> Wycieczka autokarowo-piesza po
+                                Brześciu;<br>
+                                <span style="font-size: 24px;">17.00</span> Czas wolny;<br>
+                                <span style="font-size: 24px;">18.00</span> Powrót do sanatorium;<br>
+                                <span style="font-size: 24px;">19.30</span> Kolacja;<br>
+                                <br>
+                                <br>
+                                <b>Dzień 3</b>
+                                <br>
+                                <br>
+                                <span style="font-size: 24px;">08.00</span> Śniadanie;<br>
+                                <span style="font-size: 24px;">08.30</span>wyjazd do <strong>NOVAMED</strong> (dla tych
+                                turystów, którzy
+                                wymagają przyjęcia lub leczenia)<br>
+                                - wizyta w sanatorium <strong>„NADZEA”</strong>;<br>
+                                - czas wolny;<br>
+                                <span style="font-size: 24px;">12.00</span> Wyjazd do Kobryna;<br>
+                                <span style="font-size: 24px;">13.00</span> Zwiedzanie muzeum A. V.
+                                Suworowa;<br>
+                                <span style="font-size: 24px;">14.00</span> Obiad na strusim gospodarstwie;<br>
+                                <span style="font-size: 24px;">14.30</span> Zwiedzanie farmy strusi;<br>
+                                <span style="font-size: 24px;">15.30</span> Wizyta w kobryńskim parku
+                                wodnym;<br>
+                                <span style="font-size: 24px;">18.00</span> Powrót do sanatorium;<br>
+                                <span style="font-size: 24px;">19.00</span> Kolacja;<br>
+                                <br>
+                                <br>
+                                <b>Dzień 4</b>
+                                <br>
+                                <br>
+                                <span style="font-size: 24px;">08.00</span> Śniadanie;<br>
+                                <span style="font-size: 24px;">08.30</span> - wyjazd do <strong>NOVAMED</strong> (dla tych
+                                turystów, którzy
+                                wymagają przyjęcia lub leczenia)<br>
+                                - wizyta w sanatorium <strong>„NADZEA”</strong>;<br>
+                                -czas wolny;<br>
+                                <span style="font-size: 24px;">12.00</span> wyjazd do Parku Narodowego „Puszcza
+                                Białowieska”;<br>
+                                <span style="font-size: 24px;">14.00</span> Obiad w Puszczy Białowieskiej z
+                                degustacją
+                                lokalnych drinków;<br>
+                                <span style="font-size: 24px;">14.30</span> zwiedzanie dworu Świętego Mikołaja w
+                                Puszczy
+                                Białowieskiej;<br>
+                                <span style="font-size: 24px;">16.00</span> zwiedzanie wolier z dzikimi
+                                zwierzętami;<br>
+                                <span style="font-size: 24px;">17.00</span> Wycieczka do muzeum przyrody Puszczy
+                                Białowieskiej;<br>
+                                <span style="font-size: 24px;">18.00</span> Powrót do sanatorium;<br>
+                                <span style="font-size: 24px;">19.30</span> Kolacja;<br>
+                                <br>
+                                <br>
+                                <b>Dzień 5</b>
+                                <br>
+                                <br>
+                                <span style="font-size: 24px;">08.00</span> Śniadanie;<br>
+                                <span style="font-size: 24px;">08.30</span> - wyjazd do <strong>NOVAMED</strong> (dla tych
+                                turystów, którzy
+                                wymagają przyjęcia lub leczenia)<br>
+                                - wizyta w sanatorium <strong>„NADZEA”</strong>;<br>
+                                - czas wolny;<br>
+                                <span style="font-size: 24px;">12.00</span> Wycieczka do muzeum techniki
+                                kolejowej;<br>
+                                <span style="font-size: 24px;">14.00</span> Obiad w kawiarni „Elgreko”;<br>
+                                <span style="font-size: 24px;">14.30</span> Wizyta w centrum spa „Delta”;<br>
+                                <span style="font-size: 24px;">16.45</span> Przejazd do sanatorium;<br>
+                                <span style="font-size: 24px;">17.30</span> Zbiórka i eksmisja;<br>
+                                <span style="font-size: 24px;">19.00</span> Kolacja;<br>
+                                <span style="font-size: 24px;">19.30</span> Wyjazd do domu.<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="modal">
+        <form onsubmit="send(event, 'mail.php')" method="POST">
+            <input type="text" name="user_name" placeholder="Twoje imię" required>
+            <input type="text" name="user_phone" placeholder="Twój numer telefonu" required>
+            <input type="text" name="user_time" placeholder="Dogodny czas na telefon" required>
+            <input type="submit" value="Wysłać" onclick="$.fancybox.close();">
+        </form>
+    </div>
+    <div id="modal_question">
+        <form onsubmit="send(event, 'mail.php')" method="POST">
+            <textarea type="text" name="user_question" placeholder="Twoje pytanie" required></textarea>
+            <input type="text" name="user_email" placeholder="Twoi E-mail" required>
+            <input type="submit" value="Wysłać" onclick="$.fancybox.close();">
+        </form>
+    </div>
+    <a data-fancybox data-src="#modal" href="javascript:;" id="popup__toggle" ;>
+        <div class="circlephone" style="transform-origin: center;"></div>
+        <div class="circle-fill" style="transform-origin: center;"></div>
+        <div class="img-circle" style="transform-origin: center;">
+            <div class="img-circleblock" style="transform-origin: center;"></div>
+        </div>
+    </a>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__items">
+                <div class="first___footer__column footer__item">
+                    <img src="img/map-marker-2-512.png" alt="" class="footer__adress">
+                    <div class="adress__box">
+                        <div id="biuro">BelMedTour Sp. z o.o </div>
+                        <div class="licence"> Warszawa, Domaniewska 47, 10</div>
+                        <div>Numer KRS 0000888626</div>
+                    </div>
+                </div>
+                <div class="second__footer__column footer__item">
+                    <div class="footer__phone">
+                        <img src="img/phone-39-512.png" alt="mobile" class="footer__mobile">
+                        <div class="footer__phone__wrapper">
+
+                            <div class="footer__mobile__number">+ 487 33 18 97 00</div>
+                        </div>
+                    </div>
+                    <div class="footer__email">
+                        <img src="img/email-12-512.png" alt="email" class="footer__email__img">
+                        <a href="mailto:bmedtour@gmail.com">bmedtour@gmail.com</a>
+                    </div>
+                </div>
+                <div class="third__footer__column footer__item">
+                    <div class="payment">
+                        <div class="payment__first">
+                            <img src="img/visa.png" alt="payment" class="visa">
+                        </div>
+                        <div class="payment__second">
+                            <a href="https://www.facebook.com/Belmedtour-106209358232240/" target="_blanc"><img
+                                    src="img/facebook-2-24.png" alt="facebook"></a>
+                            <a href="https://www.instagram.com/bel.med.tour/" target="_blanc"><img
+                                    src="img/instagram-24.png" alt="instagram"></a>
+                            <a href="tg://resolve?domain=AliaksandrVitsiaz"><img src="img/telegram-24.png"
+                                    alt="telegram"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="info__info"> © Wszelkie prawa zastrzeżone. Developed by Lev Antoshyn. Designed by <a class="eva"
+            href="https://www.instagram.com/defy_me__/" target="_blanc">@defy_me__</a></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/elements.js"></script>
+    <script src="js/toggle.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+
+</body>
+
+</html>

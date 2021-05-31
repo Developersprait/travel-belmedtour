@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title></title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="topheader">
+            <div class="container">
+                <div class="top__wrapper">
+                    <div class="socials">
+                        <a class="facebook" href="https://www.facebook.com/Belmedtour-106209358232240/" target="_blanc">
+                            <img src="img/facebook.png" alt="facebook">
+                        </a>
+                        <a class="instagram" href="https://www.instagram.com/bel.med.tour/" target="_blanc">
+                            <img src="img/instagram.png" alt="instagram">
+                        </a>
+                        <a class="telegram" href="" target="_blanc">
+                            <img src="img/telegram.png" alt="telegram">
+                        </a>
+                    </div>
+                    <div class="top__bar__right">
+                        <div class="top_mobile">
+                            <img id="top__phone" src="img/mobile.png" alt="phone">
+                            <a href="tel:+48733189700" class="phone__number">+487 33 18 97 00</a>
+                        </div>
+                        <input data-fancybox data-src="#modal_question" href="javascript:;" id="question__button"
+                            type="submit" value="masz pytanie?">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo__bar">
+            <div class="container">
+                <div class="logo__wrapper" id="logo__wrapper">
+                    <div class="logo__items">
+                        <div class="logotype">
+                            <img class="logo" src="img/logo.png" alt="logo">
+                            <span class="logo__subtitle">BMT</span>
+                        </div>
+                    </div>
+                    <div class="logo__title">BelMedTour</div>
+                </div>
+            </div>
+        </div>
+        <nav id="menu" class="menu">
+            <div class="container">
+                <ul class="menu__list">
+
+                </ul>
+            </div>
+        </nav>
+        <div class="hero__box__calendar">
+        </div>
+    </div>
+    <div class="main__calendar">
+        <div class="container">
+            <div class="cal__wrapper">
+                <div class="calendar__box">
+                    <div class="calendar__items">
+                        <div class="colon calendar__column__first ">
+                            <div class="c__title">Tur 3 dni</div>
+                            <div class="c__date">30.04.21 - 01.05.21</div>
+                            <div class="c__description">Zdrowie na Białorusi</div>
+                            <div class="c__price">230 $/os.</div>
+                            <!-- <a href="anketa.html" class="c__button">Zamówić</a> -->
+                            <input data-fancybox data-src="#modal__anketa" href="javascript:;" class="c__button"
+                            type="submit" value="Zamówić">
+                        </div>
+                        <div class="colon calendar__column__second">
+                            <div class="c__title">Tur 5 dni</div>
+                            <div class="c__date">30.04.21 - 03.05.21</div>
+                            <div class="c__description">Zdrowie na Białorusi</div>
+                            <div class="c__price">230 $/os.</div>
+                            <input data-fancybox data-src="#modal__anketa" href="javascript:;" class="c__button"
+                            type="submit" value="Zamówić">
+                        </div>
+                    </div>
+                    <div class="calendar__phone">
+                        + 487 33 18 97 00
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="modal">
+        <form onsubmit="send(event, 'mail.php')" method="POST">
+            <input type="text" name="user_name" placeholder="Twoje imię" required>
+            <input type="text" name="user_phone" placeholder="Twój numer telefonu" required>
+            <input type="text" name="user_time" placeholder="Dogodny czas na telefon" required>
+            <input type="submit" value="Wysłać" onclick="$.fancybox.close();">
+        </form>
+    </div>
+    <div id="modal_question">
+        <form onsubmit="send(event, 'mail.php')" method="POST">
+            <textarea type="text" name="user_question" placeholder="Twoje pytanie" required></textarea>
+            <input type="text" name="user_email" placeholder="Twoi E-mail" required>
+            <input type="submit" value="Wysłać" onclick="$.fancybox.close();">
+        </form>
+    </div>
+    <div id="modal__anketa">
+        <form onsubmit="send(event, 'mail.php')" method="POST" class="anketa__items">
+            <span class="title title__anketa">Formularz zgłoszeniowy</span>
+            <input class="anketa__item" type="text" name="user_name" placeholder="Twoje imię" required>
+            <input class="anketa__item" type="text" name="user_secname" placeholder="Drugie imię" required>
+            <input class="anketa__item" type="text" name="user_surname" placeholder="Nazwisko" required>
+            <input class="anketa__item" type="tel" name="user_phone" placeholder="Numer telefonu" required>
+            <input class="anketa__item" type="email" name="user_email" placeholder="E-mail" required>
+            <input class="anketa__item" type="text" name="user_citizenship" placeholder="Obywatelstwo" required>
+            <input class="anketa__item" type="text" name="user_passport" placeholder="Numer i seria paszportu"
+                required>
+            <input class="anketa__item" id="anketa__button" type="submit" value="Wysłać" onclick="$.fancybox.close();">
+        </form>
+    </div>
+    <a data-fancybox data-src="#modal" href="javascript:;" id="popup__toggle" ;>
+        <div class="circlephone" style="transform-origin: center;"></div>
+        <div class="circle-fill" style="transform-origin: center;"></div>
+        <div class="img-circle" style="transform-origin: center;">
+            <div class="img-circleblock" style="transform-origin: center;"></div>
+        </div>
+    </a>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__items">
+                <div class="first___footer__column footer__item">
+                    <img src="img/map-marker-2-512.png" alt="" class="footer__adress">
+                    <div class="adress__box">
+                        <div id="biuro">BelMedTour Sp. z o.o </div>
+                        <div class="licence"> Warszawa, Domaniewska 47, 10</div>
+                        <div>Numer KRS 0000888626</div>
+                    </div>
+                </div>
+                <div class="second__footer__column footer__item">
+                    <div class="footer__phone">
+                        <img src="img/phone-39-512.png" alt="mobile" class="footer__mobile">
+                        <div class="footer__phone__wrapper">
+                           
+                            <div class="footer__mobile__number">+ 487 33 18 97 00</div>
+                        </div>
+                    </div>
+                    <div class="footer__email">
+                        <img src="img/email-12-512.png" alt="email" class="footer__email__img">
+                        <a href="mailto:bmedtour@gmail.com">bmedtour@gmail.com</a>
+                    </div>
+                </div>
+                <div class="third__footer__column footer__item">
+                    <div class="payment">
+                        <div class="payment__first">
+                            <img src="img/visa.png" alt="payment" class="visa">
+                        </div>
+                        <div class="payment__second">
+                            <a href="https://www.facebook.com/Belmedtour-106209358232240/" target="_blanc"><img src="img/facebook-2-24.png" alt="facebook"></a>
+                            <a href="https://www.instagram.com/bel.med.tour/" target="_blanc"><img src="img/instagram-24.png" alt="instagram"></a>
+                            <a href="tg://resolve?domain=AliaksandrVitsiaz"><img src="img/telegram-24.png" alt="telegram"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </footer>
+    <div class="info__info"> © Wszelkie prawa zastrzeżone. Developed by Lev Antoshyn. Designed by <a class="eva"
+        href="https://www.instagram.com/defy_me__/" target="_blanc">@defy_me__</a></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/elements.js"></script>
+    <script src="js/toggle.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+
+</body>
+
+</html>
+
+
+
